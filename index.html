@@ -18,29 +18,32 @@
             <div class="w-3/4 bg-violet-400 mx-auto p-2 border border-black">
                 <div class="flex justify-between p-5 border-b-2 border-black">
                     <div class="flex gap-4">
-                        <button><i class="fa fa-bold" aria-hidden="true"></i></button>
-                        <button><i class="fa fa-italic" aria-hidden="true"></i></button>
-                        <button><i class="fa fa-underline" aria-hidden="true"></i></button>
+                        <button id="btn-bold"><i class="fa fa-bold" aria-hidden="true"></i></button>
+                        <button id="btn-italic"><i class="fa fa-italic" aria-hidden="true"></i></button>
+                        <button id="btn-underline"><i class="fa fa-underline" aria-hidden="true"></i></button>
                     </div>
                     <div class="flex gap-4">
-                        <button><i class="fa fa-align-left" aria-hidden="true"></i></button>
-                        <button><i class="fa fa-align-center" aria-hidden="true"></i></button>
-                        <button><i class="fa fa-align-right" aria-hidden="true"></i></button>
-                        <button><i class="fa fa-align-justify" aria-hidden="true"></i></button>
+                        <button id="btn-text-left"><i class="fa fa-align-left" aria-hidden="true"></i></button>
+                        <button id="btn-text-center"><i class="fa fa-align-center" aria-hidden="true"></i></button>
+                        <button id="btn-text-right"><i class="fa fa-align-right" aria-hidden="true"></i></button>
+                        <button id="btn-text-justify"><i class="fa fa-align-justify" aria-hidden="true"></i></button>
                     </div>
                     <div class="flex items-center gap-4">
-                        <input type="number" value="8" class="w-8">
-                        <button>aA</button>
-                        <input type="color" name="" id="" vlaue="#ffffff">
+                        <input id="fontSizeInput" type="number" value="20" class="w-8">
+                        <button id="btn-lower-upper">aA</button>
+                        <input type="color" name="" id="text-color" vlaue="#ffffff">
                         
                     </div>
                 </div>
                 <div class="mt-2">
-                    <textarea name="input-textArea" id=""  class="w-full h-56"></textarea>
+                    <textarea name="" id="input-textArea"  class="w-full h-56"></textarea>
                 </div>
             </div>
         </section>
     </main>
+
+    <script src="js/utilities.js"></script>
+    <script src="js/functionalities.js"></script>
 </body>
 
 </html>
